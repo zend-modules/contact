@@ -1,0 +1,21 @@
+{
+    "name": "zend-modules/contact",
+    "description": "Contact Module for ZF2",
+    "license": "GPLv3",
+    "require": {
+        "php": ">=5.3.23",
+        "zendframework/zend-form": "2.4.8",
+        "zendframework/zend-mail": "2.4.8",
+        "zendframework/zend-mvc": "2.4.8",
+        "zendframework/zend-servicemanager": "2.4.8",
+        "zendframework/zend-view": "2.4.8"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Contact\\" : "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
