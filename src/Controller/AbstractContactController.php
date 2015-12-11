@@ -100,9 +100,9 @@ abstract class AbstractContactController extends AbstractActionController
 
             // Try to redirect to the contact/thank-you route
             try {
-                $response = $this->redirect()->toRoute('contant/thank-you');
+                $response = $this->redirect()->toRoute('contact/thank-you');
                 return $response;
-            } catch (Exception $e) {
+            } catch (\Exception $e) {
                 // Be silent and continue on.
             }
 
