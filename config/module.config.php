@@ -12,18 +12,18 @@ return array(
                     ),
                 ),
                 // Optional child route contact/thank-you
-                'may_terminate' => true,
-                'child_routes' => array(
-                    'thank-you' => array(
-                        'type'    => 'Zend\Mvc\Router\Http\Literal',
-                        'options' => array(
-                            'route'    => '/thank-you',
-                            'defaults' => array(
-                                'action' => 'thankYou',
-                            ),
-                        ),
-                    ),
-                ),
+                //'may_terminate' => true,
+                //'child_routes' => array(
+                //    'thank-you' => array(
+                //        'type'    => 'Zend\Mvc\Router\Http\Literal',
+                //        'options' => array(
+                //            'route'    => '/thank-you',
+                //            'defaults' => array(
+                //                'action' => 'thankYou',
+                //            ),
+                //        ),
+                //    ),
+                //),
             ),
         ),
     ),
